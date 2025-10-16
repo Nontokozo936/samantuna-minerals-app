@@ -41,7 +41,7 @@ def load_combined_production_data():
     df = df.rename(columns={
         "CountryName": "Country",
         "MineralName": "Mineral",
-        "Production_tonnes": "Production (tonnes)",
+        "Production_tonnes": "Production (Tonnes)",
         "ExportValue_BillionUSD": "Export Value (Billion USD)"
     })
     return df
